@@ -4,3 +4,5 @@
 Pull Request Example
 
 ## test code scanning alerts
+
+## dependabot
