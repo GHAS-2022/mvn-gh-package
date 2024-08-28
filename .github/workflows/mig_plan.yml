@@ -1,0 +1,13 @@
+name: sample_project/mig_plan
+on:
+  workflow_dispatch:
+jobs:
+  Default-Stage-Test1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4.1.0
+      with:
+        clean: false
+  Default-Stage-Default-Job:
+    runs-on: ubuntu-latest
+    steps:
